@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Casa Girassol – Fraternidade Espírita Cristã</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,20 +14,7 @@
 ════════════════════════════════════════ -->
 <nav>
   <a href="#" class="nav-marca">
-    <!-- girassol SVG compacto -->
-    <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="40" cy="40" r="14" fill="#D4A017"/>
-      <circle cx="40" cy="40" r="9"  fill="#3A2E00"/>
-      <!-- pétalas 8 direções -->
-      <ellipse cx="40" cy="16" rx="5.5" ry="12" fill="#F5C518"/>
-      <ellipse cx="40" cy="64" rx="5.5" ry="12" fill="#F5C518" transform="rotate(180 40 40)"/>
-      <ellipse cx="16" cy="40" rx="12" ry="5.5" fill="#F5C518"/>
-      <ellipse cx="64" cy="40" rx="12" ry="5.5" fill="#F5C518"/>
-      <ellipse cx="23" cy="23" rx="5" ry="11" fill="#EDB800" transform="rotate(45 40 40) translate(0 -24)"/>
-      <ellipse cx="57" cy="23" rx="5" ry="11" fill="#EDB800" transform="rotate(-45 40 40) translate(0 -24)"/>
-      <ellipse cx="57" cy="57" rx="5" ry="11" fill="#EDB800" transform="rotate(135 40 40) translate(0 -24)"/>
-      <ellipse cx="23" cy="57" rx="5" ry="11" fill="#EDB800" transform="rotate(-135 40 40) translate(0 -24)"/>
-    </svg>
+    <img src="assets/img/Girassol_logo_semFundo.png" alt="Logo Casa Girassol" class="nav-logo-img" width="50" height="50">
     <div>
       <span class="nav-marca-nome">Casa Girassol</span>
       <span class="nav-marca-sub">Fraternidade Espírita Cristã</span>
@@ -57,23 +44,9 @@
     <div class="hero-blob hero-blob-3"></div>
   </div>
 
-  <!-- girassol grande decorativo -->
-  <svg class="hero-flower-bg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="100" cy="100" r="38" fill="#D4A017"/>
-    <circle cx="100" cy="100" r="24" fill="#3A2E00"/>
-    <ellipse cx="100" cy="42" rx="14" ry="32" fill="#F5C518"/>
-    <ellipse cx="100" cy="158" rx="14" ry="32" fill="#F5C518" transform="rotate(180 100 100)"/>
-    <ellipse cx="42"  cy="100" rx="32" ry="14" fill="#F5C518"/>
-    <ellipse cx="158" cy="100" rx="32" ry="14" fill="#F5C518"/>
-    <ellipse cx="60"  cy="60"  rx="12" ry="28" fill="#EDB800" transform="rotate(45 100 100) translate(0,-56)"/>
-    <ellipse cx="140" cy="60"  rx="12" ry="28" fill="#EDB800" transform="rotate(-45 100 100) translate(0,-56)"/>
-    <ellipse cx="140" cy="140" rx="12" ry="28" fill="#EDB800" transform="rotate(135 100 100) translate(0,-56)"/>
-    <ellipse cx="60"  cy="140" rx="12" ry="28" fill="#EDB800" transform="rotate(-135 100 100) translate(0,-56)"/>
-  </svg>
-
   <div class="hero-content">
+    <img src="assets/img/Girassol_logo_semFundo.png" alt="Casa Girassol" class="hero-logo">
     <span class="hero-tag">Nova Lima · Minas Gerais</span>
-    <h1>Casa<br><em>Girassol</em></h1>
     <p class="hero-frase">Irradiando o amor, através do Evangelho, para o despertar dos corações.</p>
     <div class="hero-botoes">
       <a href="#eventos" class="btn btn-sol">Ver atividades</a>
@@ -89,7 +62,7 @@
 <section id="sobre">
   <div class="sec-inner">
     <span class="sec-label fade">A nossa casa</span>
-    <h2 class="sec-titulo fade">Uma casa aberta<br><em>para todos</em></h2>
+    <h2 class="sec-titulo fade">Uma casa aberta<em> para todos</em></h2>
     <div class="separador fade">
       <div class="separador-linha"></div>
       <span class="separador-icon">🌻</span>
@@ -119,6 +92,7 @@
 
     <div class="eventos-lista fade">
 
+      <!-- Segunda: Grupo de Estudos -->
       <div class="evento-item">
         <div class="evento-faixa"></div>
         <div class="evento-corpo">
@@ -127,15 +101,42 @@
             <span class="evento-badge">Online</span>
           </div>
           <div class="evento-meta">Segunda-feira &nbsp;·&nbsp; 19:00 às 20:00</div>
-          <p class="evento-descricao">Estudo aprofundado do Livro dos Espíritos, a obra fundamental da codificação espírita organizada por Allan Kardec. Realizado no formato online, aberto a todos que desejam aprender e refletir sobre os ensinamentos espíritas.</p>
-          <!-- Troque o # pelo link real da reunião online -->
-          <a href="#" class="evento-link-online">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.9L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>
-            Acessar link da reunião
-          </a>
+          <p class="evento-descricao">Estudo aprofundado do Livro dos Espíritos, a obra fundamental da codificação espírita organizada por Allan Kardec. Realizado no formato online. Para participar, entre em contato via WhatsApp ou Direct do Instagram — o link da reunião é enviado após orientação e confirmação de participação.</p>
+          <div class="evento-contatos">
+            <a href="https://wa.me/5531989578909?text=Olá!%20Gostaria%20de%20participar%20do%20Grupo%20de%20Estudos%20do%20Livro%20dos%20Espíritos%20da%20Casa%20Girassol." target="_blank" class="evento-link-online">
+              <!-- WhatsApp icon -->
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Quero participar via WhatsApp
+            </a>
+            <a href="https://www.instagram.com/casagirassol" target="_blank" class="evento-link-ig">
+              <!-- Instagram icon -->
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              Direct no Instagram
+            </a>
+          </div>
         </div>
       </div>
 
+      <!-- Terça: Mentalização -->
+      <div class="evento-item">
+        <div class="evento-faixa"></div>
+        <div class="evento-corpo">
+          <div class="evento-linha-topo">
+            <span class="evento-nome-texto">Mentalização</span>
+            <span class="evento-badge">Irradiação</span>
+          </div>
+          <div class="evento-meta">Terça-feira &nbsp;·&nbsp; 19:00 às 19:20</div>
+          <p class="evento-descricao">Momento semanal de irradiação espiritual. Para receber a mentalização, envie seu nome e endereço via WhatsApp — a participação é gratuita e o envio dos dados pode ser feito a qualquer momento.</p>
+          <div class="evento-contatos">
+            <a href="https://wa.me/5531989578909?text=Olá!%20Gostaria%20de%20receber%20a%20mentalização%20da%20Casa%20Girassol.%20Meu%20nome:%20%0AMeu%20endereço:" target="_blank" class="evento-link-online">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Enviar nome e endereço
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quinta: Reunião Pública -->
       <div class="evento-item">
         <div class="evento-faixa"></div>
         <div class="evento-corpo">
@@ -147,30 +148,6 @@
           <p class="evento-descricao">Nossa reunião aberta semanal com palestra, evangelização, passe, atendimento fraterno, biblioteca e livraria. Um encontro para quem busca conforto espiritual, aprendizado e fraternidade.</p>
         </div>
       </div>
-
-      <!-- <div class="evento-item">
-        <div class="evento-faixa"></div>
-        <div class="evento-corpo">
-          <div class="evento-linha-topo">
-            <span class="evento-nome-texto">Grupo API – Apoio a Perdas Irreparáveis</span>
-            <span class="evento-badge">Mensal</span>
-          </div>
-          <div class="evento-meta">Última segunda-feira do mês &nbsp;·&nbsp; 19:30 às 21:00</div>
-          <p class="evento-descricao">Espaço seguro e acolhedor de apoio emocional e espiritual para quem está vivenciando perdas e luto. O grupo oferece escuta, partilha e amparo fraterno à luz dos ensinamentos espíritas.</p>
-        </div>
-      </div> -->
-
-      <!-- <div class="evento-item">
-        <div class="evento-faixa"></div>
-        <div class="evento-corpo">
-          <div class="evento-linha-topo">
-            <span class="evento-nome-texto">Música Espírita & Estudo do Livro Renovando Atitudes</span>
-            <span class="evento-badge">Presencial</span>
-          </div>
-          <div class="evento-meta">Domingo &nbsp;·&nbsp; 17:30 às 19:00</div>
-          <p class="evento-descricao">Tarde de inspiração com música espírita e estudo coletivo do livro <em>Renovando Atitudes</em>. Arte, reflexão e espiritualidade em um ambiente de alegria e fraternidade.</p>
-        </div>
-      </div> -->
 
     </div>
   </div>
@@ -192,32 +169,37 @@
 
     <div class="campanhas-grid">
 
+      <!-- Bazar -->
       <div class="campanha-bloco fade">
-        <div class="campanha-icone">🛍️</div>
+        <!-- <div class="campanha-icone">🛍️</div> -->
         <div class="campanha-titulo">Bazar Girassol</div>
         <div class="campanha-hora">Quintas-feiras · 17:30 às 19:00</div>
-        <p class="campanha-texto">Recebemos permanentemente doações de roupas, calçados, acessórios, bijuterias, artigos de decoração, utensílios, livros e brinquedos. As doações podem ser entregues ás quintas-feiras a partir das 19h na sede. Se precisar, buscamos as doações em sua casa!</p>
+        <p class="campanha-texto">Recebemos permanentemente doações de roupas, calçados, acessórios, bijuterias, artigos de decoração, utensílios, livros e brinquedos. As doações podem ser entregues às quintas-feiras, a partir das 19h, na nossa sede.</p>
       </div>
 
+      <!-- Cesta Básica -->
       <div class="campanha-bloco fade">
-        <div class="campanha-icone">🧺</div>
+        <!-- <div class="campanha-icone">🧺</div> -->
         <div class="campanha-titulo">Campanha Cesta Básica</div>
         <div class="campanha-hora">Quintas-feiras · a partir das 19:00</div>
-        <p class="campanha-texto">Recebemos doações de alimentos não perecíveis e itens de higiene como papel higiênico, pasta de dente, desodorante, absorvente, shampoo, sabonete e muito mais. Toda contribuição faz diferença. Quer ajudar a distribuir? Fale com a gente!</p>
-        <a href="https://wa.me/5531989578909?text=Olá!%20Gostaria%20de%20participar%20da%20Campanha%20Cesta%20Básica%20da%20Casa%20Girassol." target="_blank" class="campanha-wpp">
+        <p class="campanha-texto">Recebemos doações de alimentos não perecíveis e itens de higiene — como papel higiênico, pasta de dente, desodorante, absorvente, shampoo, sabonete e muito mais — e direcionamos para as famílias que nos procuram. Toda contribuição faz diferença!</p>
+        <a href="https://wa.me/5531989578909?text=Olá!%20Gostaria%20de%20contribuir%20com%20a%20Campanha%20Cesta%20Básica%20da%20Casa%20Girassol." target="_blank" class="campanha-wpp">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Quero participar
+          Quero contribuir
         </a>
       </div>
 
-      <div class="campanha-bloco fade">
-        <div class="campanha-icone">🤲</div>
-        <div class="campanha-titulo">Seja Voluntário</div>
-        <p class="campanha-texto">Quer contribuir com seu tempo e seu coração? A Casa Girassol está aberta a voluntários que desejam ajudar no atendimento, nas campanhas e na organização dos eventos. Interessados passam por uma conversa com a responsável da casa para o melhor acolhimento.</p>
-        <a href="https://wa.me/5531989578909?text=Olá!%20Gostaria%20de%20ser%20voluntário%20na%20Casa%20Girassol." target="_blank" class="campanha-wpp">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Quero ser voluntário
-        </a>
+      <!-- Voluntário — destaque -->
+      <div class="campanha-bloco destaque fade">
+        <!-- <div class="campanha-icone">🤲</div> -->
+        <div style="flex:1;">
+          <div class="campanha-titulo">Seja Voluntário</div>
+          <p class="campanha-texto" style="margin-top:0.5rem;">A Casa Girassol precisa de você! Novos voluntários são fundamentais para que novas tarefas e atividades possam florescer. Se você sente o chamado de servir ao próximo — seja no atendimento, nas campanhas sociais, na organização dos eventos ou em outras formas de ajudar — venha fazer parte da nossa família. Entre em contato e dê o primeiro passo.</p>
+          <a href="https://wa.me/5531989578909?text=Olá!%20Gostaria%20de%20ser%20voluntário%20na%20Casa%20Girassol." target="_blank" class="campanha-wpp amarelo" style="margin-top:1.2rem;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Quero ser voluntário
+          </a>
+        </div>
       </div>
 
     </div>
@@ -232,6 +214,7 @@
   <div class="footer-grid">
 
     <div class="footer-col">
+      <img src="assets/img/Girassol_logo_semFundo.png" alt="Casa Girassol" class="footer-logo">
       <div class="footer-marca">Casa Girassol</div>
       <p>Fraternidade Espírita Cristã</p>
       <p class="footer-frase">"Irradiando o amor, através do Evangelho, para o despertar dos corações."</p>
@@ -240,7 +223,7 @@
     <div class="footer-col">
       <div class="footer-col-titulo">Contato</div>
       <a href="https://wa.me/5531989578909" target="_blank">(31) 98957-8909</a>
-      <a href="mailto:contato@casagirassol.org.br">contato@casagirassol.org.br</a>
+      <a href="mailto:girassolcasa@gmail.com">girassolcasa@gmail.com</a>
       <p style="margin-top:0.6rem;">R. Luiza Lucinda, 430<br>Vila Aparecida – Nova Lima, MG<br>CEP 34004-469</p>
     </div>
 
@@ -259,33 +242,6 @@
   <p class="footer-copy">© 2026 Casa Girassol Fraternidade Espírita Cristã · Nova Lima, MG</p>
 </footer>
 
-
-<script>
-  // ── menu mobile ──
-  const toggle = document.getElementById('navToggle');
-  const menu   = document.getElementById('navMenu');
-  toggle.addEventListener('click', () => {
-    toggle.classList.toggle('open');
-    menu.classList.toggle('open');
-  });
-  menu.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => {
-      toggle.classList.remove('open');
-      menu.classList.remove('open');
-    });
-  });
-
-  // ── reveal on scroll ──
-  const fades = document.querySelectorAll('.fade');
-  const obs = new IntersectionObserver((entries) => {
-    entries.forEach((e, i) => {
-      if (e.isIntersecting) {
-        setTimeout(() => e.target.classList.add('in'), i * 60);
-        obs.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.1 });
-  fades.forEach(el => obs.observe(el));
-</script>
+<script src="Js/script.js"></script>
 </body>
 </html>
